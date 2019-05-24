@@ -1,0 +1,18 @@
+
+  <table class="table table-hover" height="1" >
+    <tr *ngFor="let department of service.list | paginate:{itemsPerPage:7, currentPage: p}">
+      <td>
+        <i class="fas fa-trash-alt" (click)="onDelete(department.departmentId)"></i>
+      </td>
+      <td (click)="fillForm(department)">{{department.name}}</td>
+    </tr>
+  </table>
+  <pagination-controls (pageChange)=" p=$event"></pagination-controls>
+
+
+
+
+
+
+
+

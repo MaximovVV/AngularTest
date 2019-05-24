@@ -1,0 +1,14 @@
+<table class="table table-hover" height="1">
+  <tr *ngFor="let employe of service.list | paginate:{itemsPerPage:7, currentPage: p}">
+    <td>
+      <i class="fas fa-trash-alt" (click)="onDelete(employe.employeId)"></i>
+    </td>
+    <td (click)="fillForm(employe)">{{employe.name}}</td>
+    <td (click)="fillForm(employe)">{{employe.surname}}</td>
+    <td (click)="fillForm(employe)">{{employe.dateBirth}}</td>
+    <td (click)="fillForm(employe)">{{employe.salary}}</td>
+    <td (click)="fillForm(employe)">{{employe.mail}}</td>
+    <td (click)="fillForm(employe)">{{getDepartmentID(employe.departmentId)}}</td>
+  </tr>
+</table>
+<pagination-controls (pageChange)=" p=$event"></pagination-controls>

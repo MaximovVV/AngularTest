@@ -1,0 +1,14 @@
+C:\Users\maxim\source\repos\WebApplicationTest\WebApplicationDepartment\bin\Debug\netcoreapp2.2\WebApplicationDepartment.deps.json
+C:\Users\maxim\source\repos\WebApplicationTest\WebApplicationDepartment\bin\Debug\netcoreapp2.2\WebApplicationDepartment.runtimeconfig.json
+C:\Users\maxim\source\repos\WebApplicationTest\WebApplicationDepartment\bin\Debug\netcoreapp2.2\WebApplicationDepartment.runtimeconfig.dev.json
+C:\Users\maxim\source\repos\WebApplicationTest\WebApplicationDepartment\bin\Debug\netcoreapp2.2\WebApplicationDepartment.dll
+C:\Users\maxim\source\repos\WebApplicationTest\WebApplicationDepartment\obj\Debug\netcoreapp2.2\WebApplicationDepartment.csproj.CoreCompileInputs.cache
+C:\Users\maxim\source\repos\WebApplicationTest\WebApplicationDepartment\obj\Debug\netcoreapp2.2\WebApplicationDepartment.RazorAssemblyInfo.cache
+C:\Users\maxim\source\repos\WebApplicationTest\WebApplicationDepartment\obj\Debug\netcoreapp2.2\WebApplicationDepartment.RazorAssemblyInfo.cs
+C:\Users\maxim\source\repos\WebApplicationTest\WebApplicationDepartment\obj\Debug\netcoreapp2.2\WebApplicationDepartment.AssemblyInfoInputs.cache
+C:\Users\maxim\source\repos\WebApplicationTest\WebApplicationDepartment\obj\Debug\netcoreapp2.2\WebApplicationDepartment.AssemblyInfo.cs
+C:\Users\maxim\source\repos\WebApplicationTest\WebApplicationDepartment\obj\Debug\netcoreapp2.2\WebApplicationDepartment.RazorTargetAssemblyInfo.cache
+C:\Users\maxim\source\repos\WebApplicationTest\WebApplicationDepartment\bin\Debug\netcoreapp2.2\WebApplicationDepartment.pdb
+C:\Users\maxim\source\repos\WebApplicationTest\WebApplicationDepartment\obj\Debug\netcoreapp2.2\WebApplicationDepartment.dll
+C:\Users\maxim\source\repos\WebApplicationTest\WebApplicationDepartment\obj\Debug\netcoreapp2.2\WebApplicationDepartment.pdb
+C:\Users\maxim\source\repos\WebApplicationTest\WebApplicationDepartment\obj\Debug\netcoreapp2.2\WebApplicationDepartment.csprojAssemblyReference.cache

@@ -1,0 +1,52 @@
+<div>
+  <h2 class="display-4 text-center">Main</h2>
+  <hr />
+  <div class="row">
+
+    <div class="col-md-3">
+      <table class="table table-hover" height="1" >
+        <tr>
+          <th>Department</th>
+          <th></th>
+        </tr>
+        <tr *ngFor="let department of serviceDepartment.list | paginate:{id:'department', itemsPerPage:8, currentPage: pageDepartment}">
+          <td (click)="getEmploye(department.departmentId)">{{department.name}}</td>
+          <td>
+            <i class="fas fa-trash-alt" (click)="onDelete(department.departmentId)"></i>
+          </td>
+        </tr>
+      </table>
+      <pagination-controls id="department" (pageChange)=" pageDepartment=$event"></pagination-controls>
+      <div class="form-group">
+        <button class="btn btn-success  btn-block" type="reset" (click)="ngOnInit()">Refresh</button>
+      </div>
+    </div>
+
+    <div class="col-md-8">
+      <table class="table table-hover" height="1" >
+        <tr>
+          <th>Name</th>
+          <th>Surname</th>
+          <th>Date of birth</th>
+          <th>Salary</th>
+          <th>Email</th>
+          <th>Department</th>
+          <th></th>
+        </tr>
+        <tr *ngFor="let employe of serviceEmploye.list | paginate:{id:'employe', itemsPerPage:8, currentPage: pageEmploye}">
+          <td>{{employe.name}}</td>
+          <td>{{employe.surname}}</td>
+          <td>{{employe.dateBirth}}</td>
+          <td>{{employe.salary}}</td>
+          <td>{{employe.mail}}</td>
+          <td>{{getDepartment(employe.departmentId)}}</td>
+          <td>
+            <i class="fas fa-trash-alt" (click)="onDelete(employe.employeId)"></i>
+          </td>
+        </tr>
+      </table>
+      <pagination-controls id="employe" (pageChange)="pageEmploye=$event"></pagination-controls>
+    </div>
+  </div>
+ 
+</div>
