@@ -1,5 +1,5 @@
 # AngualrTest
-Created by ASP.NET Core Web API + Angulrar7 + MS SQL Server 2014.
+Created by ASP.NET Core + Angulrar7 + MS SQL Server 2014.
 
 <strong>Project Angular structure<strong><br>
 ○ src<br>
